@@ -7,7 +7,7 @@ Created on Tue Nov  7 21:32:36 2023
 This Code Draw a line plot of the number of internet user accross 
 4 countries Afghanistan, Australia, Canada and Spain during 1990 to 2020.
 
-The Data has been taken from the website https://ourworldindata.org/internet
+The Data has been taken from the website https://ourworldindata.org/grapher/number-of-internet-users
 
 """
 
@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 # Load the data into a Pandas DataFrame from your CSV file
 countries_data = pd.read_csv("D:/MSC Data Science/ADS/Practical/Assignment1/InternetUsers_data.csv")
 
-# Extract relevant columns for your line plot
+# Extract relevant columns for line plot
 years =  countries_data['Year']  
 afghanistan =  countries_data['AFG']  
 australia =  countries_data['AUS']  
