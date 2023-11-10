@@ -14,7 +14,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #extract data from file named world_religions 
-religions_data = pd.read_csv('D:/MSC Data Science/ADS/Practical/Assignment1/world_religions.csv')
+religions_data = pd.read_csv('https://github.com/JawadDS/ADS_Assignments/blob/main/world_religions.csv')
 
 #define figure size
 plt.figure(figsize=(11, 11))

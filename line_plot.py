@@ -15,7 +15,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the data into a Pandas DataFrame from your CSV file
-countries_data = pd.read_csv("D:/MSC Data Science/ADS/Practical/Assignment1/InternetUsers_data.csv")
+countries_data = pd.read_csv("https://github.com/JawadDS/ADS_Assignments/blob/main/InternetUsers_data.csv")
 
 # Extract relevant columns for line plot
 years =  countries_data['Year']  
@@ -36,7 +36,7 @@ plt.plot(years, spain, label='Spain')
 plt.xlabel('Year')
 plt.ylabel('Number of People')
 plt.yticks([0, 10000000, 20000000, 30000000, 40000000], ['0 million', '10 million', '20 million', '30 million', '40 million'])
-plt.title('Numnber of Internet users')
+plt.title('Evolution of Internet users')
 
 # Add a legend
 plt.legend()
